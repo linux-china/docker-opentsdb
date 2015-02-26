@@ -6,4 +6,4 @@ if [ ! -d /var/lib/hbase/data/default/tsdb ] ; then
   COMPRESSION=NONE HBASE_HOME=/usr/local/hbase /usr/share/opentsdb/tools/create_table.sh
 fi
 
-/usr/share/opentsdb/bin/tsdb tsd
+/usr/share/opentsdb/bin/tsdb tsd --auto-metric
