@@ -1,4 +1,4 @@
-FROM lancope/hbase:0.98.16.1
+FROM lancope/hbase
 
 run apt-get update
 run apt-get -y install gnuplot
